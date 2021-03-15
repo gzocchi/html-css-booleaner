@@ -1,0 +1,66 @@
+body {
+  font-family: "Libre Baskerville", serif;
+}
+header {
+  background-color: rgb(78, 160, 255);
+  background-image: url(../../img/pattern.png);
+  background-repeat: repeat-x;
+  background-size: 300px;
+  background-position: top;
+}
+header img {
+  height: 50px;
+}
+
+main,
+footer {
+  margin: auto;
+  padding: 0px 10%;
+}
+
+#booleaner {
+  color: rgb(32, 169, 229);
+}
+
+.sottotitolo {
+  color: rgb(128, 128, 128);
+}
+
+.testo_piccolo {
+    font-size: small;
+}
+
+.sottolineato {
+  background-color: yellow;
+}
+
+th {
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  background-color: rgb(32, 169, 229);
+}
+tr {
+  background-color: rgb(177, 229, 242);
+}
+#bianco {
+  background-color: transparent;
+}
+
+footer section {
+  width: 250px;
+  height: 150px;
+  color: white;
+  font-weight: bold;
+}
+#interesse1 {
+  background-image: url(../../img/monitor.jpg);
+  background-position: center;
+  background-size: cover;
+  border-bottom: 10px solid white;
+}
+#interesse2 {
+  background-image: url(../../img/graph.jpg);
+  background-position: center;
+  background-size: cover;
+}
