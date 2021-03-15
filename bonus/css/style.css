@@ -1,17 +1,21 @@
 body {
   font-family: "Libre Baskerville", serif;
+margin: 0%;
 }
+
 header {
   background-color: rgb(78, 160, 255);
   background-image: url(../../img/pattern.png);
   background-repeat: repeat-x;
   background-size: 300px;
   background-position: top;
+  padding: 0%;
 }
 header img {
   height: 50px;
 }
 
+header img,
 main,
 footer {
   margin: auto;
@@ -28,6 +32,7 @@ footer {
 
 .testo_piccolo {
     font-size: small;
+    margin-top: 0%;
 }
 
 .sottolineato {
